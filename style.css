@@ -72,22 +72,24 @@ nav.navbar-transparente {
 /* == BOTÕES == */
 
 .btn-custom {
+	font-weight: bold;
 	border: 2px solid white;
-	color: white;
+	color: #2BA67E;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
 	padding: 10px 35px;
 	text-transform: uppercase;
-	transition: background 0.5s, color 0.5s;
+	/*transition: background 0.5s, color 0.5s;*/
+	transition: 0.3s all;
 }
 
 .btn-ux {
-	background: none; 
+	background-color: white;
 }
 
 .btn-ux:hover {
-
+	transform: scale(1.1);
 	background: #000;
 	color: white;
 }
